@@ -1,0 +1,131 @@
+body {
+    width: 100%;
+    height: 100vh;
+    background: rgb(233, 223, 223);
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    gap: 40px;
+    margin: 20px 0;
+}
+
+button:hover {
+    cursor: pointer;
+    filter: brightness(1.6);
+    transform: scale(1.03);
+    text-decoration: underline;
+}
+
+button {
+    background: none;
+    border: none;
+    font-size: 23px;
+}
+
+.title {
+    font-size: 35px;
+}
+
+.home {
+    display: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.home>h1 {
+    text-align: center;
+}
+
+.home-image {
+    width: 700px;
+    display: block;
+    margin: 50px auto;
+}
+
+.menu {
+    margin: 50px;
+}
+
+.menu>.title {
+    text-align: center;
+    font-size: 40px;
+}
+
+.items {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    padding: 20px;
+}
+
+.food {
+    height: 130px;
+    width: 200px;
+}
+
+.menu-item {
+    width: 400px;
+    height: 180px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    background: rgb(247, 180, 173);
+}
+
+.menu-item:hover {
+    transform: scale(1.03);
+    border: 1px solid yellow;
+}
+
+.menu-detail {
+    display: block;
+    text-align: center;
+}
+
+.about {
+    padding: 30px;
+    border: 2px solid grey;
+    border-radius: 8px;
+    width: 900px;
+    margin: 100px auto;
+    text-align: center;
+}
+
+h1.title {
+    font-size: 70px;
+}
+
+.text {
+    font-size:30px;
+    width: 850px;
+    margin: 0 auto;
+}
+
+.contact {
+    padding: 30px;
+    border: 2px solid grey;
+    border-radius: 8px;
+    width: 900px;
+    margin: 100px auto;
+    text-align: center;
+}
+
+h1.contact-title {
+    font-size: 70px;
+    text-align: center;
+}
+
+.contact-info {
+    font-size: 30px;
+    width: 850px;
+    margin: 0 auto;
+    text-align: center;
+}
