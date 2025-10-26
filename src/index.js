@@ -21,17 +21,17 @@ function initialisePage() {
     document.getElementById('menu-btn').addEventListener('click', () => {
         clearContent();
         loadMenu();
-    })
+    });
 
     document.getElementById('about-btn').addEventListener('click', () => {
         clearContent();
         loadAbout();
-    })
+    });
 
     document.getElementById('contact-btn').addEventListener('click', () => {
         clearContent();
         loadContact();
-    })
+    });
 }
 
 document.addEventListener('DOMContentLoaded', () => {
